@@ -7,7 +7,7 @@ on:
 env:
     DOTNETVERSION: 8.0.201
     CONFIGURATION: Release # Values: Debug, Release
-    PLATFORM: x64
+    PLATFORM: Any CPU # Values: x64, Any CPU
     VERSIONNUMBER: 1.${{ github.run_number }}.${{ github.run_attempt }}
     
 jobs:
