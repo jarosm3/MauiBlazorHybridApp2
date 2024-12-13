@@ -1,0 +1,7 @@
+# Surpress EOL conversion
+*.msix -text
+*.msix.* -text
+*.exe -text
+*.exe.* -text
+*.dll -text
+*.dll.* -text
